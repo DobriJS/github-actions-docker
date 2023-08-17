@@ -9,5 +9,14 @@ For example, your workflow might need to run integration tests that require acce
 - You can clone the repo and run `npm install`
 
 ### Docker Containers & GitHub Actions
-What does the Docker Container do ? - Packeges the code plus its execution environment
-Why use Container ? - Full control over environtment and installed software
+What does the Docker Container do ? 
+- Packeges the code plus its execution environment.
+### Why use Container ?
+- Full control over environtment and installed software
+- Great for creating re-usable execution packages
+### Why use Containers for Jobs ?
+- You can run Jobs in pre-defined environments
+- Great for Jobs that need extra tools or lots of customization
+### Why use Service Containers ?
+- Extra services can be used by Steps in Jobs
+- Locally running, isolated testing database
